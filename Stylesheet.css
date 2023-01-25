@@ -1,0 +1,58 @@
+body{
+background-color: lightblue;
+margin: 0;
+}
+
+.Menu{
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 1280px;
+height: 50px;
+font-size: 20px;
+}
+
+#Home{
+margin-right: 70px;
+}
+
+#Club{
+margin-right: 70px ;
+}
+
+.Left{
+position: absolute;
+left: 40px;
+top: 120px;
+}
+
+.Right{
+position: absolute;
+width: 290px;
+height: 180px;
+left: 945px;
+top: 350px;
+}
+
+h1{
+position: absolute;
+left: 525px;
+top: 40px;
+}
+
+h2{
+position: absolute;
+left: 480px;
+top: 130px;
+}
+
+h3{
+position: absolute;
+text-align: center;
+top: 220px;
+margin-left: 30%;
+margin-right: 30%;
+line-height: 35px;
+}
