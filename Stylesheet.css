@@ -22,18 +22,30 @@ margin-right: 70px;
 margin-right: 70px ;
 }
 
-.Left{
+.LeftPicture{
 position: absolute;
 left: 40px;
 top: 120px;
 }
 
-.Right{
+.MiddlePicture{
+position: absolute;
+top: 230px;
+width: 500px;
+height: 300px;
+}
+
+.RightPicture{
 position: absolute;
 width: 290px;
 height: 180px;
 left: 945px;
 top: 350px;
+}
+
+.Info{
+position: absolute;
+top: 100px;
 }
 
 h1{
