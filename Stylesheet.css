@@ -1,9 +1,12 @@
-body{
+.body{
 background-color: lightblue;
-margin: 0;
+display: grid;
+margin: 0px;
+grid-template-columns: 1fr;
+grid-row-gap: 250px;
 }
 
-.Menu{
+.header, .footer{
 background-color: white;
 display: flex;
 flex-direction: row;
@@ -22,17 +25,41 @@ margin-right: 70px;
 margin-right: 70px ;
 }
 
+.IndexLeft{
+position: absolute;
+left: 50px;
+top: 110px;
+width: 300px;
+height: 200px;
+}
+
+.IndexRight{
+position: absolute;
+left: 930px;
+top: 250px;
+width: 300px;
+height: 200px;
+}
+
+.CareerRight{
+position: absolute;
+top: 60px;
+left: 780px;
+width: 400px;
+height: 200px;
+}
+    
+.CareerLeft{
+position: absolute;
+top: 200px;
+width: 200px;
+height: 200px;
+}
+
 .GOATLeft{
 position: absolute;
 left: 40px;
 top: 120px;
-}
-
-.IndexMiddle{
-position: absolute;
-top: 230px;
-width: 500px;
-height: 300px;
 }
 
 .GOATRight{
@@ -43,25 +70,10 @@ left: 945px;
 top: 350px;
 }
 
-.CareerRight{
-position: absolute;
-top: 60px;
-left: 780px;
-width: 400px;
-height: 200px;
-}
-
-.CareerLeft{
-position: absolute;
-top: 200px;
-width: 200px;
-height: 200px;
-}
-
 h1{
 position: absolute;
 left: 525px;
-top: 40px;
+top: 50px;
 }
 
 h2{
@@ -73,15 +85,64 @@ top: 130px;
 h3{
 position: absolute;
 text-align: center;
-top: 220px;
+top: 200px;
 margin-left: 30%;
 margin-right: 30%;
 line-height: 35px;
 }
 
-h5{
+.titel1{
 position: absolute;
+font-size: 18px;
+top: 35px;
+left: 20px;
+right: 600px;
+}
+
+.titel2{
+position: absolute;
+font-size: 18px;
+top: 165px;
+left: 20px;
+right: 600px;
+}
+
+.titel3{
+position: absolute;
+font-size: 18px;
+top: 320px;
+left: 20px;
+right: 600px;
+}
+
+.Jeugdteam{
+position: absolute;
+font-size: 18px;
 top: 60px;
 left: 20px;
 right: 600px;
+}
+
+.Debuut{
+position: absolute;
+font-size: 18px;
+top: 190px;
+left: 20px;
+right: 600px;
+}
+
+.Transfer{
+position: absolute;
+font-size: 18px;
+top: 345px;
+left: 20px;
+right: 600px;
+}
+
+.header:hover{
+background-color: plum;
+}
+
+.footer:hover{
+background-color: plum;
 }
