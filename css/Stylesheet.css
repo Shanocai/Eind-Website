@@ -12,17 +12,18 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 75px;
+    min-height: 75px;
     font-size: 20px;
 }
 
-.Menu{
-    height: 75px;
+.Menu {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
-.Menu a{
+.Menu a {
+    margin: 0 30px;
     padding: 5px;
 }
 
@@ -30,10 +31,40 @@ header {
     background-color: plum;
 }
 
+.logo {
+    width: 50px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+}
+
 footer {
     min-height: 50px;
     background: PapayaWhip;
+    animation-name: footer-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes footer-animation {
+    from {
+        background-color: PapayaWhip;
+    }
+
+    to {
+        background-color: lightblue;
+    }
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.copyright {
+    margin-right: 5px;
+    float: right;
+}
+
 
 
 .main {
@@ -43,36 +74,24 @@ footer {
     display: flex;
 }
 
-/* .body{
-background-color: lightblue;
-display: grid;
-margin: 0px;
-grid-row-gap: 250px;
-} */
-
-
-#Home {
-    margin-right: 70px;
-}
-
-#Career {
-    margin-right: 70px;
+.content {
+    width: 40%;
 }
 
 .IndexLeft {
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 20%;
 }
 
 .IndexRight {
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 20%;
 }
 
 .CareerRight {
     margin-left: 25px;
-    width: 400px;
-    height: 200px;
+    width: 30%;
+    height: 15%;
 }
 
 h3 {
@@ -82,14 +101,31 @@ h3 {
     line-height: 35px;
 }
 
-.career-container{
-display: flex;
-flex-direction: column;
-align-items: center;
+button {
+    background-color: darkgray;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+button:hover{
+background-color: plum;
+color: white;
+}
+
+.career-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titel1 {
-font-size: 18px;
+    font-size: 18px;
 }
 
 .titel2 {
@@ -116,68 +152,56 @@ font-size: 18px;
     background-color: plum;
 }
 
-.footer:hover {
-    background-color: plum;
+@media screen and (max-width: 380px) {
+    .Menu {
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 390px) {
-
-    .header,
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+@media screen and (max-width: 570px) {
+    .gallery-container {
         width: 100%;
-        height: 40px;
-        font-size: 10px;
     }
 
-    h1 {
-        left: 35px;
-        top: 50px;
+    .gallery-grid-container {
+        grid-template-columns: auto;
+    }
+}
+
+
+@media screen and (min-width:571px) and (max-width: 1139px) {
+    .gallery-container {
+        width: 100%;
     }
 
-    h2 {
-        left: 300px;
-        top: 130px;
+    .gallery-grid-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .gallery-container {
+        width: 1140px;
     }
 
-    h3 {
-        top: 200px;
-        margin-left: 30%;
-        margin-right: 30%;
-        line-height: 35px;
+    .gallery-grid-container {
+        grid-template-columns: auto auto auto auto;
     }
-
-    .IndexLeft {
-        position: absolute;
-        left: 10px;
-        top: 50px;
-        width: 150px;
-        height: 80px;
-    }
-
-    .IndexRight {
-        position: absolute;
-        left: 930px;
-        top: 250px;
-        width: 300px;
-        height: 200px;
-    }
-
 }
 
 .gallery-container {
     display: grid;
-    grid-template-columns: auto;
-    width: 1140px;
     margin: auto;
+    grid-template-columns: auto;
+}
+
+.gallery-grid-container {
+    display: grid;
 }
 
 .gallery {
     margin: 5px;
-    float: left;
+
 }
 
 .gallery img {

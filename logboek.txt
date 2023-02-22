@@ -1,5 +1,7 @@
-1ste dag : ging ik voorbeelden zoeken naar designs voor mijn website. ik vind dat ik me beter moet concentreren
-2e dag : heb ik 3 html pagina's gemaakt en ze verbonden. niet echt iets waarvan ik vind dat het beter moest
-3e dag : foto's gezocht en text gezet op de pagina's. ik had het design op moeten slaan voordat ik verder ging
-4e dag : meer foto's en text gezet op de pagina's. had dit allemaal in 1 keer kunnen doen.
-5e dag : deed ik mee met de HTML les en heb ik animaties toegevoegd. niet zo zeer iets dat beter kon.
+1ste dag : Ik ben begonnen met zoeken naar voorbeelden van designs voor mijn website. Dat ging best snel maar ik ben te vaak afgeleid geraakt waardoor het meer tijd heeft gekost dan nodig was.
+2e dag : Heb ik 3 html pagina's gemaakt en ze verbonden met een navigatie menu. Het maken en verbinden van de pagina's was makkelijk maar ik denk dat ik efficiënter had kunnen zijn.
+3e dag : Foto's gezocht en text gezet op de pagina's. Foto's en tekst op de pagina's zetten was ik ondertussen al gewend maar ik ben het design dat ik als voorbeeld wou gebruiken vergeten op te slaan.
+4e dag : Meer foto's en text gezet op de pagina's. Nieuwe foto's zoeken was moeilijker dan verwacht en daardoor heb ik er langer over gedaan dan gewild.
+5e dag : Deed ik mee met de HTML les en heb ik animaties toegevoegd. Ik had een beetje moeite met zoeken naar welke animaties ik kon gebruiken voor mijn website.
+6e dag : Heb ik gewerkt aan een fotogalerij, grid, flexbox en animaties toevoegen aan mijn website. De fotogalerij ging makkelijk, maar ik had meer moeite met grid en flexbox.
+7e dag : Vandaag heb ik gewerkt aan het responsief maken van mijn website, dit was best lastig. Ik moet meer gebruik maken van "text-align", "align-items" en "justify-content". Dit heeft alles een stuk makkelijker gemaakt.
